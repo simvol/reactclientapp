@@ -9,7 +9,7 @@ import {
   FIREBASE_DATABASE_URL,
   FIREBASE_PROJECT_ID,
   FIREBASE_STORAGE_BUCKET,
-  FIREBASE_MESSAGIN_SENDER_ID } from '../sensetive/keys'
+  FIREBASE_MESSAGIN_SENDER_ID } from './keys'
 
 const firebaseConfig = {
   apiKey: GOOGLE_KEY,

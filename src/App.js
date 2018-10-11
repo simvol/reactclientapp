@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import AddClient from './components/clients/AddClient';
 import ClientDetails from './components/clients/ClientDetails';
+import EditClient from './components/clients/EditClient';
 
 import { Provider } from 'react-redux';
 import store from './store';
@@ -22,6 +23,7 @@ class App extends Component {
               <Switch>
                 <Route exact path="/" component={Dashboard} />
                 <Route exact path="/client/add" component={AddClient} />
+                <Route exact path="/client/edit/:id" component={EditClient} />
                 <Route exact path="/client/:id" component={ClientDetails} />
               </Switch>
             </div>

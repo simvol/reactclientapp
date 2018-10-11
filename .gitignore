@@ -10,7 +10,7 @@
 /build
 
 # sensetive
-/sensetive
+keys.js
 
 # misc
 .DS_Store
